@@ -1,7 +1,6 @@
-import sys
-sys.path.append("../src")
-sys.path.append("src")
-sys.path.append("src/silero")
+import sys, os
+sys.path.append(os.path.dirname(__file__))
+
 from src.silero import (
     silero_stt,
     silero_tts,
