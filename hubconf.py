@@ -1,11 +1,11 @@
-dependencies = ["torch"]
-
-import sys
-from src.silero import (
+from .src.silero import (
     silero_stt,
     silero_tts,
     silero_te,
 )
+import sys
+dependencies = ["torch"]
+
 
 __all__ = [
     "silero_stt",
