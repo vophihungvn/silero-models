@@ -1,4 +1,6 @@
 import sys
+sys.path.append("../src")
+sys.path.append("src")
 sys.path.append("src/silero")
 from src.silero import (
     silero_stt,
